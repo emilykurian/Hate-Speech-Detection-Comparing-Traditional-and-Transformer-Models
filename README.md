@@ -24,7 +24,7 @@ The intended contribution of this project is to provide a comprehensive assessme
 * Required computations resources:  
  GPU(s) -  A GPU that has at least 12GB of RAM is required. The requirement is met by Google Colaboratory -on the free Tesla K80 GPU.  
   
-#### Traditional Models:
+#### Traditional Models (SVM, Decision tree and logistic regression):
 * Data Preprocessing  
 * Text Cleaning and Preprocessing:  
     * Convert text to lowercase, remove URLs, special characters, punctuation, numbers and stopwords  
@@ -45,7 +45,11 @@ The intended contribution of this project is to provide a comprehensive assessme
 * Model Configuration:  
     * It defines the learning rate, number of epochs, optimizer, loss function, and metric (accuracy).  
 * Training and Testing the Model  
-* Precision,  Recall and F1-score will be used to evaluate the performance of each model.  
+* Precision,  Recall and F1-score will be used to evaluate the performance of each model.
+
+# Conclusion 
+
+Developed an efficient hate speech detecting system, and demonstrated superior performance of BERT model compared to traditional models as expected. Since BERT is pre-trained on large amounts of data including the whole of wikipedia being one source, BERT follows a transfer learning approach which helps in better performance.
 
 
 
